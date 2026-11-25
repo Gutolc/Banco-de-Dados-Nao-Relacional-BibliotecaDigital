@@ -1,0 +1,137 @@
+[
+  {
+    "_id": "ISBN-9788535914849",
+    "titulo": "Dom Casmurro",
+    "subtitulo": "Edição Comentada",
+    "autores": ["Machado de Assis"],
+    "editora": "Companhia das Letras",
+    "ano_publicacao": 1899,
+    "idioma": "Português",
+    "tipo_midia": "EBOOK",
+    "genero": ["Romance", "Clássico", "Literatura Brasileira"],
+    "status": "DISPONIVEL",
+    "data_cadastro": "2026-01-15T10:30:00Z",
+    "detalhes_midia": {
+      "formato": "PDF/EPUB",
+      "paginas": 256,
+      "tamanho_arquivo_mb": 15.5,
+      "isbn_digital": "978-85-359-1484-9"
+    },
+    "gestao_acervo": {
+      "licencas_totais": 10,
+      "licencas_em_uso": 7,
+      "licencas_disponiveis": 3,
+      "preco_reposicao": 45.90
+    },
+    "recomendacao_grafo": [
+      { "id_relacionado": "AUD-998822", "tipo_relacao": "MESMO_AUTOR_ESTILO", "titulo": "Memórias Póstumas" }
+    ],
+    "tags_busca": ["realismo", "traição", "clássicos", "machado de assis", "capitu"],
+    "auditoria": {
+      "criado_por": "admin_sistema",
+      "ultima_atualizacao": "2026-11-20T14:22:00Z"
+    }
+  },
+  {
+    "_id": "AUD-998822",
+    "titulo": "O Hobbit",
+    "subtitulo": "Edição Especial de Colecionador",
+    "autores": ["J.R.R. Tolkien"],
+    "editora": "HarperCollins",
+    "ano_publicacao": 1937,
+    "idioma": "Português",
+    "tipo_midia": "AUDIOLIVRO",
+    "genero": ["Fantasia", "Aventura", "Ficção"],
+    "status": "DISPONIVEL",
+    "data_cadastro": "2025-08-10T09:00:00Z",
+    "detalhes_midia": {
+      "duracao_minutos": 720,
+      "narrador": "William Prado",
+      "estudio_gravacao": "AudioBooks BR",
+      "tamanho_arquivo_mb": 450.0,
+      "formato": "MP3/AAC"
+    },
+    "gestao_acervo": {
+      "licencas_totais": 5,
+      "licencas_em_uso": 5,
+      "licencas_disponiveis": 0,
+      "preco_reposicao": 89.90
+    },
+    "recomendacao_grafo": [
+      { "id_relacionado": "ISBN-112233", "tipo_relacao": "MESMA_TRILOGIA", "titulo": "O Senhor dos Anéis" }
+    ],
+    "tags_busca": ["terra média", "dragão", "smaug", "tolkien", "fantasia épica"],
+    "auditoria": {
+      "criado_por": "admin_bibliotecario_01",
+      "ultima_atualizacao": "2026-11-24T11:00:00Z"
+    }
+  },
+  {
+    "_id": "FIS-776655",
+    "titulo": "Cálculo Volume 1",
+    "subtitulo": "Limites e Derivadas",
+    "autores": ["James Stewart"],
+    "editora": "Cengage Learning",
+    "ano_publicacao": 2016,
+    "idioma": "Português",
+    "tipo_midia": "FISICO",
+    "genero": ["Matemática", "Didático", "Engenharia"],
+    "status": "DISPONIVEL",
+    "data_cadastro": "2024-02-01T08:00:00Z",
+    "detalhes_midia": {
+      "paginas": 688,
+      "isbn_fisico": "978-8522124300",
+      "dimensoes": "21 x 28 cm",
+      "peso_gramas": 1450,
+      "localizacao_estante": "Estante C - Prateleira 3"
+    },
+    "gestao_acervo": {
+      "copias_totais": 15,
+      "copias_emprestadas": 12,
+      "copias_disponiveis": 3,
+      "preco_reposicao": 150.00
+    },
+    "recomendacao_grafo": [
+      { "id_relacionado": "FIS-112244", "tipo_relacao": "MESMA_DISCIPLINA", "titulo": "Cálculo Volume 2" }
+    ],
+    "tags_busca": ["matemática", "cálculo", "exatas", "stewart", "limites", "derivadas"],
+    "auditoria": {
+      "criado_por": "sistema_importacao_planilha",
+      "ultima_atualizacao": "2026-06-15T15:30:00Z"
+    }
+  },
+  {
+    "_id": "REV-2026-001",
+    "titulo": "Revista Brasileira de Engenharia de Software",
+    "subtitulo": "Volume 12 - Edição 3",
+    "autores": ["Vários Autores"],
+    "editora": "SBC - Sociedade Brasileira de Computação",
+    "ano_publicacao": 2026,
+    "idioma": "Português",
+    "tipo_midia": "PERIODICO",
+    "genero": ["Tecnologia", "Computação", "Artigos Científicos"],
+    "status": "DISPONIVEL",
+    "data_cadastro": "2026-10-01T08:00:00Z",
+    "detalhes_midia": {
+      "issn": "1234-5678",
+      "periodicidade": "Trimestral",
+      "artigos_contidos": 8,
+      "formato": "PDF",
+      "acesso_aberto": true
+    },
+    "gestao_acervo": {
+      "licencas_totais": 100,
+      "licencas_em_uso": 45,
+      "licencas_disponiveis": 55,
+      "preco_reposicao": 0.00
+    },
+    "recomendacao_grafo": [
+      { "id_relacionado": "REV-2026-002", "tipo_relacao": "PROXIMA_EDICAO", "titulo": "Volume 12 - Edição 4" }
+    ],
+    "tags_busca": ["software", "engenharia de software", "artigos", "tecnologia", "sbc"],
+    "auditoria": {
+      "criado_por": "admin_periodicos",
+      "ultima_atualizacao": "2026-11-01T10:00:00Z"
+    }
+  }
+]
